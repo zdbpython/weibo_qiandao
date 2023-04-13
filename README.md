@@ -20,6 +20,7 @@
 3,添加代码
 
 点击左侧 weibo_checkin.py, 点击右上角编辑按钮，将仓库中的 weibo_checkin.py 文件中的内容全部复制过去，然后点击保存
+![image](https://user-images.githubusercontent.com/66553745/231684179-bdc17e5c-a981-44c4-b6eb-84358161417f.png)
 
 4,添加相关环境变量
 
@@ -28,6 +29,7 @@
 名称weibo_chaohua_id，自动拆分选 否，值填PC浏览器获取到的值，例如易烊千玺超话，值填写p/和/super_index之间的数字。多个weibo_chaohua_id建立多个同名weibo_chaohua_id环境变量即可。
 例如：
 https://weibo.com/p/1008087d4c56ccdd21d10f32eea97a29975b52/super_index，填写008087d4c56ccdd21d10f32eea97a29975b52
+![image](https://user-images.githubusercontent.com/66553745/231684404-b24fb6e4-0f8b-4438-bad1-c370bb7c4d9d.png)
 
 5，添加定时任务
 
@@ -35,6 +37,7 @@ https://weibo.com/p/1008087d4c56ccdd21d10f32eea97a29975b52/super_index，填写0
 
  task weibo_checkin.py
 设置自己想要的定时，点击确定保存
+![image](https://user-images.githubusercontent.com/66553745/231683701-aadfdae8-a17d-42c8-8369-67376d695a51.png)
 
 测试是否成功
 
